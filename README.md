@@ -18,3 +18,10 @@ One note about running NetLogo code:
   To run any of these NetLogo models, simply start by clicking the setup button on the left. Then click on and of the go buttons.
   Go-x runs the model for x ticks. Go with the spiral arrows runs the code until clicked again. 
   
+  For the sliders and GUI variables:
+  
+  For all simulations, the initial-rate slider indicates the base rate of transcription of the protein per cell per tick in percentage points. The sender-cells slider indicates the number of sender cells you want in the simulation. The diffusion time and activation time sliders indicate how long it takes for cleaved notch to return to the nucleus and how long delta has to be in the membrane before it can being cleavage.
+  
+  For Static Differentiation Pulse.nlogo, the repressor strength sliders indicate how much each repressor reduces the rate of transcription of the protein in percentage points
+  
+  For Simple Cadherin.nlogo, the Cadherin-Energy slider indicates how much relative energy a single coarse-grained cadherin bind has. It is roughly equivalent to U/kbT for the Metropolis method.
